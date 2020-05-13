@@ -6,7 +6,9 @@
 <h1>Hello world!</h1>
 <br/>
 
-
+{% if zipcode %}
+	{{ zipcode }}
+{% endif %}
 
 {% if api %}
 	{% if api == "Error..." %}
